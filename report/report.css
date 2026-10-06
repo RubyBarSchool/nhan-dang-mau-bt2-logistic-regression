@@ -1,0 +1,32 @@
+@page { size: A4; margin: 22mm 20mm 20mm 25mm; }
+* { box-sizing: border-box; }
+body { font-family: "Times New Roman", Times, serif; font-size: 12.5pt; line-height: 1.42; color: #111; margin: 0; }
+h1 { font-size: 15pt; margin: 20pt 0 7pt; break-after: avoid; }
+h2 { font-size: 13pt; margin: 14pt 0 5pt; break-after: avoid; }
+p { margin: 0 0 7pt; text-align: justify; }
+ul, ol { margin: 0 0 7pt; padding-left: 20pt; }
+li { margin-bottom: 3pt; text-align: justify; }
+code { font-family: Consolas, "Courier New", monospace; font-size: 10.5pt; }
+pre { font-family: Consolas, "Courier New", monospace; font-size: 10pt; background: #f4f4f4; padding: 6pt 8pt; margin: 0 0 8pt; white-space: pre-wrap; break-inside: avoid; }
+.eq { text-align: center; font-style: italic; margin: 6pt 0 8pt; }
+.eq b, .eq .up { font-style: normal; }
+table { border-collapse: collapse; margin: 6pt auto 4pt; font-size: 11pt; break-inside: avoid; }
+th, td { border: 1px solid #555; padding: 3pt 7pt; text-align: right; }
+th { background: #e9eef5; text-align: center; }
+td:first-child, th:first-child { text-align: left; }
+td { white-space: nowrap; }
+td.l { text-align: left; white-space: normal; }
+.cap { text-align: center; font-style: italic; font-size: 11pt; margin: 3pt 0 10pt; }
+figure { margin: 8pt 0 4pt; text-align: center; break-inside: avoid; }
+figure img { max-width: 100%; }
+.cover { height: 250mm; display: flex; flex-direction: column; align-items: center; text-align: center; border: 2px solid #111; padding: 16mm 10mm; break-after: page; }
+.cover .org { font-size: 14pt; font-weight: bold; text-transform: uppercase; line-height: 1.6; }
+.cover .rule { width: 60mm; border-top: 1px solid #111; margin: 5mm 0 0; }
+.cover .kind { font-size: 19pt; font-weight: bold; margin-top: 42mm; text-transform: uppercase; }
+.cover .course { font-size: 14pt; margin-top: 5mm; }
+.cover .title { font-size: 17pt; font-weight: bold; margin-top: 14mm; line-height: 1.4; max-width: 140mm; }
+.cover .who { margin-top: auto; font-size: 13.5pt; line-height: 1.9; text-align: left; }
+.cover .who td { border: none; padding: 0 8pt 0 0; text-align: left; font-size: 13.5pt; }
+.cover .place { margin-top: 16mm; font-size: 13pt; font-weight: bold; }
+.note { font-size: 11pt; color: #333; }
+a { color: #0b4ea2; text-decoration: none; word-break: break-all; }
